@@ -1,0 +1,38 @@
+name: check-sources
+
+on:
+  schedule:
+    # 每 6 小时探活一次
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Probe all sources
+        run: python scripts/check.py --status
+
+      - name: Rebuild configs
+        run: python scripts/build.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add -A
+            git commit -m "chore: auto health check $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          else
+            echo "no changes"
+          fi

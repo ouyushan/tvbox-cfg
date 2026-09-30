@@ -1,0 +1,80 @@
+{
+  "urls": [
+    {
+      "url": "https://raw.githubusercontent.com/qist/tvbox/master/fty.json",
+      "name": "1-饭太硬(fty)"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/qist/tvbox/master/jsm.json",
+      "name": "2-饭太硬(极速)"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/qist/tvbox/master/xiaosa/api.json",
+      "name": "3-潇洒"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/2hacc/TVBox/main/oktv.json",
+      "name": "4-OK影视(2hacc)"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+      "name": "5-高天流云(js)"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/qirenzhidao/tvbox18/main/tvbox.json",
+      "name": "6-歧人知道(tvbox)"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/qirenzhidao/tvbox18/main/fan.json",
+      "name": "7-歧人知道(fan)"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/qirenzhidao/tvbox18/main/fongmi.json",
+      "name": "8-歧人知道(fongmi)"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
+      "name": "9-香雅情(XYQ)"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json",
+      "name": "10-小帅(XC)"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/guot55/yg/main/max.json",
+      "name": "11-月光宝盒(max)"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/dxawi/0/main/0.json",
+      "name": "12-DXAW(0)"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/maoystv/6/main/000.json",
+      "name": "13-猫影视(000)"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/txtvv/txtv/main/tvbox/0326.json",
+      "name": "14-Txtv(0326)"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/xianyuyimu/TVBOX-/main/TVBox/%E4%B8%80%E6%9C%A8%E5%A4%9A%E7%BA%BF%E8%B7%AF.json",
+      "name": "15-一木多线路"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/kunkka1986/my.img/main/frjbox.json",
+      "name": "16-肥猫(frjbox)"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hackyjso/box/main/jzy.txt",
+      "name": "17-hackyjso(jzy)"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/noimank/tvbox/main/tvboxmuti.json",
+      "name": "18-noimank 多仓"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/config.json",
+      "name": "19-CatVod 官方 Spider 配置"
+    }
+  ]
+}

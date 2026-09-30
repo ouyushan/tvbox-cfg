@@ -1,0 +1,54 @@
+{
+  "_comment": "IPTV 直播源清单（m3u / txt）。status 说明同 vod.json。",
+  "updated": "2026-09-30",
+  "sources": [
+    {
+      "name": "iptv-api 聚合(Guovin)",
+      "desc": "Guovin/iptv-api 自动采集校验后的结果，频道最全，定时更新",
+      "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+      "mirrors": [
+        "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u"
+      ],
+      "format": "m3u",
+      "upstream": "https://github.com/Guovin/iptv-api",
+      "status": "ok",
+      "last_checked": "2026-09-30"
+    },
+    {
+      "name": "iptv-api 聚合(TXT)",
+      "desc": "同上仓库的 txt 版本，适合 TVBox 直接填",
+      "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.txt",
+      "mirrors": [
+        "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.txt"
+      ],
+      "format": "txt",
+      "upstream": "https://github.com/Guovin/iptv-api",
+      "status": "ok",
+      "last_checked": "2026-09-30"
+    },
+    {
+      "name": "YueChan Live(IPTV)",
+      "desc": "YueChan/Live 仓库的中国 IPTV 频道列表",
+      "url": "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/IPTV.m3u",
+      "mirrors": [
+        "https://cdn.jsdelivr.net/gh/YueChan/Live@main/IPTV.m3u"
+      ],
+      "format": "m3u",
+      "upstream": "https://github.com/YueChan/Live",
+      "status": "ok",
+      "last_checked": "2026-09-30"
+    },
+    {
+      "name": "YueChan Live(Global)",
+      "desc": "YueChan/Live 仓库的海外频道列表",
+      "url": "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u",
+      "mirrors": [
+        "https://cdn.jsdelivr.net/gh/YueChan/Live@main/Global.m3u"
+      ],
+      "format": "m3u",
+      "upstream": "https://github.com/YueChan/Live",
+      "status": "ok",
+      "last_checked": "2026-09-30"
+    }
+  ]
+}

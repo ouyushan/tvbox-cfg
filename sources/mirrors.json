@@ -1,0 +1,59 @@
+{
+  "_comment": "GitHub 裸地址加速镜像。国内直连 raw.githubusercontent.com 经常超时，把地址套一层镜像即可。",
+  "updated": "2026-09-30",
+  "jsdelivr": [
+    {
+      "name": "jsDelivr(CDN)",
+      "template": "https://cdn.jsdelivr.net/gh/{repo}@{ref}/{path}",
+      "status": "ok",
+      "last_checked": "2026-09-30"
+    },
+    {
+      "name": "jsDelivr(Fastly)",
+      "template": "https://fastly.jsdelivr.net/gh/{repo}@{ref}/{path}",
+      "status": "ok",
+      "last_checked": "2026-09-30"
+    },
+    {
+      "name": "jsDelivr(Gcore)",
+      "template": "https://gcore.jsdelivr.net/gh/{repo}@{ref}/{path}",
+      "status": "dead",
+      "note": "2026-09-30 探测不可达"
+    }
+  ],
+  "prefix": [
+    {
+      "name": "gh-proxy",
+      "template": "https://gh-proxy.com/{url}",
+      "status": "unknown",
+      "note": "2026-09-30 探测返回 403，可能需自备实例"
+    },
+    {
+      "name": "ghp.ci",
+      "template": "https://ghp.ci/{url}",
+      "status": "unknown",
+      "note": "2026-09-30 探测隧道连接失败"
+    },
+    {
+      "name": "gitdl.cn",
+      "template": "https://gitdl.cn/{url}",
+      "status": "unknown"
+    },
+    {
+      "name": "hub.gitmirror.com",
+      "template": "https://hub.gitmirror.com/{url}",
+      "status": "unknown"
+    },
+    {
+      "name": "raw.githubusercontents.com",
+      "template": "https://raw.githubusercontents.com/{repo}/{ref}/{path}",
+      "status": "unknown"
+    },
+    {
+      "name": "raw.kkgithub.com",
+      "template": "https://raw.kkgithub.com/{repo}/{ref}/{path}",
+      "status": "unknown"
+    }
+  ],
+  "usage": "把 https://raw.githubusercontent.com/{repo}/{ref}/{path} 中的域名部分替换成镜像域名，或直接用上面的 template 生成地址。"
+}

@@ -1,0 +1,229 @@
+{
+  "_comment": "TVBox 点播配置源清单。status: ok=已探活可用, unknown=未验证, dead=已失效。last_checked 为最后探测日期。",
+  "updated": "2026-09-30",
+  "sources": [
+    {
+      "name": "饭太硬(fty)",
+      "desc": "qist/tvbox 仓库的饭太硬线路，长期维护，站源丰富",
+      "url": "https://raw.githubusercontent.com/qist/tvbox/master/fty.json",
+      "mirrors": [
+        "https://cdn.jsdelivr.net/gh/qist/tvbox@master/fty.json",
+        "https://fastly.jsdelivr.net/gh/qist/tvbox@master/fty.json"
+      ],
+      "upstream": "https://github.com/qist/tvbox",
+      "status": "ok",
+      "last_checked": "2026-09-30"
+    },
+    {
+      "name": "饭太硬(极速)",
+      "desc": "qist/tvbox 的 jsm.json，js 爬虫线路",
+      "url": "https://raw.githubusercontent.com/qist/tvbox/master/jsm.json",
+      "mirrors": [
+        "https://cdn.jsdelivr.net/gh/qist/tvbox@master/jsm.json"
+      ],
+      "upstream": "https://github.com/qist/tvbox",
+      "status": "ok",
+      "last_checked": "2026-09-30"
+    },
+    {
+      "name": "潇洒",
+      "desc": "qist/tvbox 的 xiaosa/api.json",
+      "url": "https://raw.githubusercontent.com/qist/tvbox/master/xiaosa/api.json",
+      "mirrors": [
+        "https://cdn.jsdelivr.net/gh/qist/tvbox@master/xiaosa/api.json"
+      ],
+      "upstream": "https://github.com/qist/tvbox",
+      "status": "ok",
+      "last_checked": "2026-09-30"
+    },
+    {
+      "name": "OK影视(2hacc)",
+      "desc": "2hacc/TVBox 的 oktv.json，自带 spider jar，站源极多",
+      "url": "https://raw.githubusercontent.com/2hacc/TVBox/main/oktv.json",
+      "mirrors": [
+        "https://cdn.jsdelivr.net/gh/2hacc/TVBox@main/oktv.json",
+        "https://fastly.jsdelivr.net/gh/2hacc/TVBox@main/oktv.json",
+        "https://gcore.jsdelivr.net/gh/2hacc/TVBox@main/oktv.json"
+      ],
+      "upstream": "https://github.com/2hacc/TVBox",
+      "status": "ok",
+      "last_checked": "2026-09-30"
+    },
+    {
+      "name": "高天流云(js)",
+      "desc": "gaotianliuyun/gao 的 js.json，FongMi / TVBox 通用",
+      "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+      "mirrors": [
+        "https://cdn.jsdelivr.net/gh/gaotianliuyun/gao@master/js.json"
+      ],
+      "upstream": "https://github.com/gaotianliuyun/gao",
+      "status": "ok",
+      "last_checked": "2026-09-30"
+    },
+    {
+      "name": "歧人知道(tvbox)",
+      "desc": "qirenzhidao/tvbox18 主配置",
+      "url": "https://raw.githubusercontent.com/qirenzhidao/tvbox18/main/tvbox.json",
+      "mirrors": [
+        "https://cdn.jsdelivr.net/gh/qirenzhidao/tvbox18@main/tvbox.json"
+      ],
+      "upstream": "https://github.com/qirenzhidao/tvbox18",
+      "status": "ok",
+      "last_checked": "2026-09-30"
+    },
+    {
+      "name": "歧人知道(fan)",
+      "desc": "qirenzhidao/tvbox18 的饭太硬线路",
+      "url": "https://raw.githubusercontent.com/qirenzhidao/tvbox18/main/fan.json",
+      "mirrors": [
+        "https://cdn.jsdelivr.net/gh/qirenzhidao/tvbox18@main/fan.json"
+      ],
+      "upstream": "https://github.com/qirenzhidao/tvbox18",
+      "status": "ok",
+      "last_checked": "2026-09-30"
+    },
+    {
+      "name": "歧人知道(fongmi)",
+      "desc": "qirenzhidao/tvbox18 的 FongMi 影视配置",
+      "url": "https://raw.githubusercontent.com/qirenzhidao/tvbox18/main/fongmi.json",
+      "mirrors": [
+        "https://cdn.jsdelivr.net/gh/qirenzhidao/tvbox18@main/fongmi.json"
+      ],
+      "upstream": "https://github.com/qirenzhidao/tvbox18",
+      "status": "ok",
+      "last_checked": "2026-09-30"
+    },
+    {
+      "name": "香雅情(XYQ)",
+      "desc": "xyq254245/xyqonlinerule，老牌线路",
+      "url": "https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
+      "mirrors": [
+        "https://cdn.jsdelivr.net/gh/xyq254245/xyqonlinerule@main/XYQTVBox.json"
+      ],
+      "upstream": "https://github.com/xyq254245/xyqonlinerule",
+      "status": "ok",
+      "last_checked": "2026-09-30"
+    },
+    {
+      "name": "小帅(XC)",
+      "desc": "yoursmile66/TVBox 的 XC.json",
+      "url": "https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json",
+      "mirrors": [
+        "https://cdn.jsdelivr.net/gh/yoursmile66/TVBox@main/XC.json"
+      ],
+      "upstream": "https://github.com/yoursmile66/TVBox",
+      "status": "ok",
+      "last_checked": "2026-09-30"
+    },
+    {
+      "name": "月光宝盒(max)",
+      "desc": "guot55/yg 的 max.json",
+      "url": "https://raw.githubusercontent.com/guot55/yg/main/max.json",
+      "mirrors": [
+        "https://cdn.jsdelivr.net/gh/guot55/yg@main/max.json"
+      ],
+      "upstream": "https://github.com/guot55/yg",
+      "status": "ok",
+      "last_checked": "2026-09-30"
+    },
+    {
+      "name": "DXAW(0)",
+      "desc": "dxawi/0 仓库聚合配置",
+      "url": "https://raw.githubusercontent.com/dxawi/0/main/0.json",
+      "mirrors": [
+        "https://cdn.jsdelivr.net/gh/dxawi/0@main/0.json"
+      ],
+      "upstream": "https://github.com/dxawi/0",
+      "status": "ok",
+      "last_checked": "2026-09-30"
+    },
+    {
+      "name": "猫影视(000)",
+      "desc": "maoystv/6 仓库配置",
+      "url": "https://raw.githubusercontent.com/maoystv/6/main/000.json",
+      "mirrors": [
+        "https://cdn.jsdelivr.net/gh/maoystv/6@main/000.json"
+      ],
+      "upstream": "https://github.com/maoystv/6",
+      "status": "ok",
+      "last_checked": "2026-09-30"
+    },
+    {
+      "name": "Txtv(0326)",
+      "desc": "txtvv/txtv 仓库 tvbox 目录配置",
+      "url": "https://raw.githubusercontent.com/txtvv/txtv/main/tvbox/0326.json",
+      "mirrors": [
+        "https://cdn.jsdelivr.net/gh/txtvv/txtv@main/tvbox/0326.json"
+      ],
+      "upstream": "https://github.com/txtvv/txtv",
+      "status": "ok",
+      "last_checked": "2026-09-30"
+    },
+    {
+      "name": "一木多线路",
+      "desc": "xianyuyimu/TVBOX- 的一木多线路配置",
+      "url": "https://raw.githubusercontent.com/xianyuyimu/TVBOX-/main/TVBox/%E4%B8%80%E6%9C%A8%E5%A4%9A%E7%BA%BF%E8%B7%AF.json",
+      "mirrors": [
+        "https://cdn.jsdelivr.net/gh/xianyuyimu/TVBOX-@main/TVBox/%E4%B8%80%E6%9C%A8%E5%A4%9A%E7%BA%BF%E8%B7%AF.json"
+      ],
+      "upstream": "https://github.com/xianyuyimu/TVBOX-",
+      "status": "ok",
+      "last_checked": "2026-09-30"
+    },
+    {
+      "name": "肥猫(frjbox)",
+      "desc": "kunkka1986/my.img 的 frjbox.json",
+      "url": "https://raw.githubusercontent.com/kunkka1986/my.img/main/frjbox.json",
+      "mirrors": [
+        "https://cdn.jsdelivr.net/gh/kunkka1986/my.img@main/frjbox.json"
+      ],
+      "upstream": "https://github.com/kunkka1986/my.img",
+      "status": "ok",
+      "last_checked": "2026-09-30"
+    },
+    {
+      "name": "hackyjso(jzy)",
+      "desc": "hackyjso/box 的 jzy.txt",
+      "url": "https://raw.githubusercontent.com/hackyjso/box/main/jzy.txt",
+      "mirrors": [
+        "https://cdn.jsdelivr.net/gh/hackyjso/box@main/jzy.txt"
+      ],
+      "upstream": "https://github.com/hackyjso/box",
+      "status": "ok",
+      "last_checked": "2026-09-30"
+    },
+    {
+      "name": "noimank 多仓",
+      "desc": "noimank/tvbox 的多仓聚合配置（urls 聚合，可套娃）",
+      "url": "https://raw.githubusercontent.com/noimank/tvbox/main/tvboxmuti.json",
+      "mirrors": [
+        "https://gitlab.com/noimank/tvbox/-/raw/main/tvboxmuti.json",
+        "https://cdn.jsdelivr.net/gh/noimank/tvbox@main/tvboxmuti.json"
+      ],
+      "upstream": "https://github.com/noimank/tvbox",
+      "status": "ok",
+      "last_checked": "2026-09-30"
+    },
+    {
+      "name": "CatVod 官方 Spider 配置",
+      "desc": "FongMi/CatVodSpider 官方示例配置，用于自建 spider 调试",
+      "url": "https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/config.json",
+      "mirrors": [
+        "https://cdn.jsdelivr.net/gh/FongMi/CatVodSpider@main/json/config.json"
+      ],
+      "upstream": "https://github.com/FongMi/CatVodSpider",
+      "status": "ok",
+      "last_checked": "2026-09-30"
+    },
+    {
+      "name": "清宁接口合集",
+      "desc": "Zhou-Li-Bin/Tvbox-QingNing 仓库，README 内含大量接口与直播源索引",
+      "url": "https://raw.githubusercontent.com/Zhou-Li-Bin/Tvbox-QingNing/main/README.md",
+      "mirrors": [],
+      "upstream": "https://github.com/Zhou-Li-Bin/Tvbox-QingNing",
+      "status": "ok",
+      "last_checked": "2026-09-30",
+      "note": "这是索引型仓库，需从 README 中自行挑选接口地址"
+    }
+  ]
+}

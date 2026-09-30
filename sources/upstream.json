@@ -1,0 +1,30 @@
+{
+  "_comment": "GitHub 上 star 排名靠前的 TVBox / IPTV 相关上游仓库，本仓库的配置源即采集自这些项目。stars 为 2026-09-30 检索值。",
+  "updated": "2026-09-30",
+  "repos": [
+    { "name": "Guovin/iptv-api", "stars": 25335, "url": "https://github.com/Guovin/iptv-api", "desc": "IPTV 直播源自动采集、校验、测速，输出 M3U/TXT/API", "category": "直播源" },
+    { "name": "youhunwl/TVAPP", "stars": 24065, "url": "https://github.com/youhunwl/TVAPP", "desc": "Android TV 电视盒子应用合集", "category": "软件" },
+    { "name": "j4Uq/TVBoxOSC", "stars": 17653, "url": "https://github.com/j4Uq/TVBoxOSC", "desc": "TVBox 空壳客户端", "category": "软件" },
+    { "name": "qist/tvbox", "stars": 11568, "url": "https://github.com/qist/tvbox", "desc": "OK影视、tvbox 配置文件（饭太硬等）", "category": "点播配置" },
+    { "name": "laoma2053/awesome-zhuiju-free", "stars": 10592, "url": "https://github.com/laoma2053/awesome-zhuiju-free", "desc": "追剧资源指南，含 TVBox 配置地址索引", "category": "索引" },
+    { "name": "liu673cn/bug", "stars": 10344, "url": "https://github.com/liu673cn/bug", "desc": "TVBox 开源版空壳 + 配置", "category": "软件" },
+    { "name": "joevess/IPTV", "stars": 10287, "url": "https://github.com/joevess/IPTV", "desc": "IPTV 直播源抓取整合", "category": "直播源" },
+    { "name": "HerbertHe/iptv-sources", "stars": 8998, "url": "https://github.com/HerbertHe/iptv-sources", "desc": "直播源自动更新", "category": "直播源" },
+    { "name": "gaotianliuyun/gao", "stars": 7806, "url": "https://github.com/gaotianliuyun/gao", "desc": "FongMi 影视和 tvbox 配置", "category": "点播配置" },
+    { "name": "ngo5/IPTV", "stars": 6050, "url": "https://github.com/ngo5/IPTV", "desc": "IPV4/IPV6 TVBox 电视直播点播源", "category": "直播源" },
+    { "name": "2hacc/TVBox", "stars": 5825, "url": "https://github.com/2hacc/TVBox", "desc": "TVBox 网络接口，OK 影视源", "category": "点播配置" },
+    { "name": "dongyubin/IPTV", "stars": 4457, "url": "https://github.com/dongyubin/IPTV", "desc": "直播源合集（含体育）", "category": "直播源" },
+    { "name": "noimank/tvbox", "stars": 3391, "url": "https://github.com/noimank/tvbox", "desc": "自用 tvbox 源分享，多仓源", "category": "点播配置" },
+    { "name": "power721/alist-tvbox", "stars": 3133, "url": "https://github.com/power721/alist-tvbox", "desc": "AList 转 TVBox 代理服务", "category": "工具" },
+    { "name": "xianyuyimu/TVBOX-", "stars": 3113, "url": "https://github.com/xianyuyimu/TVBOX-", "desc": "一木 TVBOX 自用仓库", "category": "点播配置" },
+    { "name": "kknifer7/FreeBox", "stars": 1968, "url": "https://github.com/kknifer7/FreeBox", "desc": "TVBox 电脑版", "category": "软件" },
+    { "name": "kimwang1978/collect-txt", "stars": 1958, "url": "https://github.com/kimwang1978/collect-txt", "desc": "源自动整理", "category": "索引" },
+    { "name": "Zhou-Li-Bin/Tvbox-QingNing", "stars": 1655, "url": "https://github.com/Zhou-Li-Bin/Tvbox-QingNing", "desc": "TVBox / 影视仓接口与直播源收集", "category": "索引" },
+    { "name": "scovis/TVBox", "stars": 1655, "url": "https://github.com/scovis/TVBox", "desc": "开源无广告 TVBox 源", "category": "点播配置" },
+    { "name": "Dong-learn9/TVBox-zyjk", "stars": 1552, "url": "https://github.com/Dong-learn9/TVBox-zyjk", "desc": "TVBox 自用接口", "category": "点播配置" },
+    { "name": "ZGQ-inc/source", "stars": 1276, "url": "https://github.com/ZGQ-inc/source", "desc": "书源/图源/直播源/规则大型整合", "category": "索引" },
+    { "name": "jinenge/tvbox", "stars": 1142, "url": "https://github.com/jinenge/tvbox", "desc": "TVBox / 影视仓内置源", "category": "点播配置" },
+    { "name": "FongMi/CatVodSpider", "stars": 897, "url": "https://github.com/FongMi/CatVodSpider", "desc": "CatVod 官方爬虫仓库（自定义源接口）", "category": "工具" },
+    { "name": "qirenzhidao/tvbox18", "stars": 862, "url": "https://github.com/qirenzhidao/tvbox18", "desc": "tvbox 影视宝盒接口", "category": "点播配置" }
+  ]
+}
