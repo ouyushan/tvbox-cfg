@@ -35,7 +35,7 @@
 - 主地址：`https://raw.githubusercontent.com/2hacc/TVBox/main/oktv.json` → **ok**
 - 镜像：`https://cdn.jsdelivr.net/gh/2hacc/TVBox@main/oktv.json` → ok
 - 镜像：`https://fastly.jsdelivr.net/gh/2hacc/TVBox@main/oktv.json` → ok
-- 镜像：`https://gcore.jsdelivr.net/gh/2hacc/TVBox@main/oktv.json` → dead
+- 镜像：`https://gcore.jsdelivr.net/gh/2hacc/TVBox@main/oktv.json` → ok
 
 ## 高天流云(js)
 - 主地址：`https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json` → **ok**
