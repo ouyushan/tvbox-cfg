@@ -96,7 +96,7 @@
 
 ## CatVod 官方 Spider 配置
 - 主地址：`https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/config.json` → **ok**
-- 镜像：`https://cdn.jsdelivr.net/gh/FongMi/CatVodSpider@main/json/config.json` → ok
+- 镜像：`https://cdn.jsdelivr.net/gh/FongMi/CatVodSpider@main/json/config.json` → dead
 
 ## 清宁接口合集
 - 主地址：`https://raw.githubusercontent.com/Zhou-Li-Bin/Tvbox-QingNing/main/README.md` → **ok**
