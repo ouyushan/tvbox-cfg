@@ -15,7 +15,7 @@
 - 镜像：`https://cdn.jsdelivr.net/gh/YueChan/Live@main/IPTV.m3u` → ok
 
 ## YueChan Live(Global)
-- 主地址：`https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u` → **ok**
+- 主地址：`https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u` → **dead**
 - 镜像：`https://cdn.jsdelivr.net/gh/YueChan/Live@main/Global.m3u` → ok
 
 ## 饭太硬(fty)
