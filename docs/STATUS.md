@@ -1,6 +1,6 @@
 # 配置源健康状态
 
-生成时间：2026-10-02
+生成时间：2026-10-03
 
 ## iptv-api 聚合(Guovin)
 - 主地址：`https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u` → **ok**
@@ -16,7 +16,7 @@
 
 ## YueChan Live(Global)
 - 主地址：`https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u` → **dead**
-- 镜像：`https://cdn.jsdelivr.net/gh/YueChan/Live@main/Global.m3u` → ok
+- 镜像：`https://cdn.jsdelivr.net/gh/YueChan/Live@main/Global.m3u` → dead
 
 ## 饭太硬(fty)
 - 主地址：`https://raw.githubusercontent.com/qist/tvbox/master/fty.json` → **ok**
