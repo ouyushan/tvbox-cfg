@@ -1,6 +1,6 @@
 # 配置源健康状态
 
-生成时间：2026-10-05
+生成时间：2026-10-06
 
 ## iptv-api 聚合(Guovin)
 - 主地址：`https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u` → **ok**
@@ -43,7 +43,7 @@
 
 ## 歧人知道(tvbox)
 - 主地址：`https://raw.githubusercontent.com/qirenzhidao/tvbox18/main/tvbox.json` → **ok**
-- 镜像：`https://cdn.jsdelivr.net/gh/qirenzhidao/tvbox18@main/tvbox.json` → dead
+- 镜像：`https://cdn.jsdelivr.net/gh/qirenzhidao/tvbox18@main/tvbox.json` → ok
 
 ## 歧人知道(fan)
 - 主地址：`https://raw.githubusercontent.com/qirenzhidao/tvbox18/main/fan.json` → **ok**
