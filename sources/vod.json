@@ -12,7 +12,7 @@
       ],
       "upstream": "https://github.com/qist/tvbox",
       "status": "ok",
-      "last_checked": "2026-10-06"
+      "last_checked": "2026-10-07"
     },
     {
       "name": "饭太硬(极速)",
@@ -23,7 +23,7 @@
       ],
       "upstream": "https://github.com/qist/tvbox",
       "status": "ok",
-      "last_checked": "2026-10-06"
+      "last_checked": "2026-10-07"
     },
     {
       "name": "潇洒",
@@ -34,7 +34,7 @@
       ],
       "upstream": "https://github.com/qist/tvbox",
       "status": "ok",
-      "last_checked": "2026-10-06"
+      "last_checked": "2026-10-07"
     },
     {
       "name": "OK影视(2hacc)",
@@ -47,7 +47,7 @@
       ],
       "upstream": "https://github.com/2hacc/TVBox",
       "status": "ok",
-      "last_checked": "2026-10-06"
+      "last_checked": "2026-10-07"
     },
     {
       "name": "高天流云(js)",
@@ -58,7 +58,7 @@
       ],
       "upstream": "https://github.com/gaotianliuyun/gao",
       "status": "ok",
-      "last_checked": "2026-10-06"
+      "last_checked": "2026-10-07"
     },
     {
       "name": "歧人知道(tvbox)",
@@ -69,7 +69,7 @@
       ],
       "upstream": "https://github.com/qirenzhidao/tvbox18",
       "status": "ok",
-      "last_checked": "2026-10-06"
+      "last_checked": "2026-10-07"
     },
     {
       "name": "歧人知道(fan)",
@@ -80,7 +80,7 @@
       ],
       "upstream": "https://github.com/qirenzhidao/tvbox18",
       "status": "ok",
-      "last_checked": "2026-10-06"
+      "last_checked": "2026-10-07"
     },
     {
       "name": "歧人知道(fongmi)",
@@ -91,7 +91,7 @@
       ],
       "upstream": "https://github.com/qirenzhidao/tvbox18",
       "status": "ok",
-      "last_checked": "2026-10-06"
+      "last_checked": "2026-10-07"
     },
     {
       "name": "香雅情(XYQ)",
@@ -102,7 +102,7 @@
       ],
       "upstream": "https://github.com/xyq254245/xyqonlinerule",
       "status": "ok",
-      "last_checked": "2026-10-06"
+      "last_checked": "2026-10-07"
     },
     {
       "name": "小帅(XC)",
@@ -113,7 +113,7 @@
       ],
       "upstream": "https://github.com/yoursmile66/TVBox",
       "status": "ok",
-      "last_checked": "2026-10-06"
+      "last_checked": "2026-10-07"
     },
     {
       "name": "月光宝盒(max)",
@@ -124,7 +124,7 @@
       ],
       "upstream": "https://github.com/guot55/yg",
       "status": "ok",
-      "last_checked": "2026-10-06"
+      "last_checked": "2026-10-07"
     },
     {
       "name": "DXAW(0)",
@@ -135,7 +135,7 @@
       ],
       "upstream": "https://github.com/dxawi/0",
       "status": "ok",
-      "last_checked": "2026-10-06"
+      "last_checked": "2026-10-07"
     },
     {
       "name": "猫影视(000)",
@@ -146,7 +146,7 @@
       ],
       "upstream": "https://github.com/maoystv/6",
       "status": "ok",
-      "last_checked": "2026-10-06"
+      "last_checked": "2026-10-07"
     },
     {
       "name": "Txtv(0326)",
@@ -157,7 +157,7 @@
       ],
       "upstream": "https://github.com/txtvv/txtv",
       "status": "ok",
-      "last_checked": "2026-10-06"
+      "last_checked": "2026-10-07"
     },
     {
       "name": "一木多线路",
@@ -168,7 +168,7 @@
       ],
       "upstream": "https://github.com/xianyuyimu/TVBOX-",
       "status": "ok",
-      "last_checked": "2026-10-06"
+      "last_checked": "2026-10-07"
     },
     {
       "name": "肥猫(frjbox)",
@@ -179,7 +179,7 @@
       ],
       "upstream": "https://github.com/kunkka1986/my.img",
       "status": "ok",
-      "last_checked": "2026-10-06"
+      "last_checked": "2026-10-07"
     },
     {
       "name": "hackyjso(jzy)",
@@ -190,7 +190,7 @@
       ],
       "upstream": "https://github.com/hackyjso/box",
       "status": "ok",
-      "last_checked": "2026-10-06"
+      "last_checked": "2026-10-07"
     },
     {
       "name": "noimank 多仓",
@@ -202,7 +202,7 @@
       ],
       "upstream": "https://github.com/noimank/tvbox",
       "status": "ok",
-      "last_checked": "2026-10-06"
+      "last_checked": "2026-10-07"
     },
     {
       "name": "CatVod 官方 Spider 配置",
@@ -213,7 +213,7 @@
       ],
       "upstream": "https://github.com/FongMi/CatVodSpider",
       "status": "ok",
-      "last_checked": "2026-10-06"
+      "last_checked": "2026-10-07"
     },
     {
       "name": "清宁接口合集",
@@ -222,7 +222,7 @@
       "mirrors": [],
       "upstream": "https://github.com/Zhou-Li-Bin/Tvbox-QingNing",
       "status": "ok",
-      "last_checked": "2026-10-06",
+      "last_checked": "2026-10-07",
       "note": "这是索引型仓库，需从 README 中自行挑选接口地址"
     }
   ]
