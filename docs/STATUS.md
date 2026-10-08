@@ -1,6 +1,6 @@
 # 配置源健康状态
 
-生成时间：2026-10-07
+生成时间：2026-10-08
 
 ## iptv-api 聚合(Guovin)
 - 主地址：`https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u` → **ok**

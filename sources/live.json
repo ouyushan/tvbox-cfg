@@ -12,7 +12,7 @@
       "format": "m3u",
       "upstream": "https://github.com/Guovin/iptv-api",
       "status": "ok",
-      "last_checked": "2026-10-07"
+      "last_checked": "2026-10-08"
     },
     {
       "name": "iptv-api 聚合(TXT)",
@@ -24,7 +24,7 @@
       "format": "txt",
       "upstream": "https://github.com/Guovin/iptv-api",
       "status": "ok",
-      "last_checked": "2026-10-07"
+      "last_checked": "2026-10-08"
     },
     {
       "name": "YueChan Live(IPTV)",
@@ -36,7 +36,7 @@
       "format": "m3u",
       "upstream": "https://github.com/YueChan/Live",
       "status": "ok",
-      "last_checked": "2026-10-07"
+      "last_checked": "2026-10-08"
     },
     {
       "name": "YueChan Live(Global)",
@@ -48,7 +48,7 @@
       "format": "m3u",
       "upstream": "https://github.com/YueChan/Live",
       "status": "dead",
-      "last_checked": "2026-10-07"
+      "last_checked": "2026-10-08"
     }
   ]
 }
