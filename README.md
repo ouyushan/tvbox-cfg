@@ -3,7 +3,7 @@
 自用 TVBox / 影视仓 / FongMi 配置仓库。内容采集自 GitHub 上 star 排名靠前的 TVBox 相关项目，
 经过**实探测活**后整理成可直接填写的配置地址，并提供多仓聚合配置。
 
-> 采集与整理时间：**2026-09-30**（上游接口随时可能失效，建议定期跑一次探活脚本）
+> 采集与整理时间：**2026-10-16**（点播源于 2026-09-30 整理；直播源于 2026-10-16 重新核对上游并刷新。上游接口随时可能失效，建议定期跑一次探活脚本）
 
 ---
 
@@ -100,7 +100,10 @@ python scripts/check.py --status   # 探活 + 生成 docs/STATUS.md
 | iptv-api 聚合 | [Guovin/iptv-api](https://github.com/Guovin/iptv-api) | m3u | ✅ |
 | iptv-api 聚合(TXT) | [Guovin/iptv-api](https://github.com/Guovin/iptv-api) | txt | ✅ |
 | YueChan Live(IPTV) | [YueChan/Live](https://github.com/YueChan/Live) | m3u | ✅ |
-| YueChan Live(Global) | [YueChan/Live](https://github.com/YueChan/Live) | m3u | ✅ |
+| YueChan Live(GNTV) | [YueChan/Live](https://github.com/YueChan/Live) | m3u | ✅ |
+| ngo5 IPTV(IPv4) | [ngo5/IPTV](https://github.com/ngo5/IPTV) | m3u | ✅ |
+
+> 注：原 `YueChan Live(Global)` 引用的 `Global.m3u` 已被上游仓库删除，已于 2026-10-16 移除并改用同仓库现存的 `GNTV.m3u` 替代。
 
 ## 五、上游仓库 star 排名（完整版）
 

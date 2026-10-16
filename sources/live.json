@@ -1,6 +1,6 @@
 {
-  "_comment": "IPTV 直播源清单（m3u / txt）。status 说明同 vod.json。",
-  "updated": "2026-09-30",
+  "_comment": "IPTV 直播源清单（m3u / txt）。status 说明同 vod.json。采集于 2026-10-16，已逐一核对上游仓库实际存在的文件。",
+  "updated": "2026-10-16",
   "sources": [
     {
       "name": "iptv-api 聚合(Guovin)",
@@ -39,15 +39,27 @@
       "last_checked": "2026-10-16"
     },
     {
-      "name": "YueChan Live(Global)",
-      "desc": "YueChan/Live 仓库的海外频道列表",
-      "url": "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u",
+      "name": "YueChan Live(GNTV)",
+      "desc": "YueChan/Live 仓库的 GNTV 频道列表，替代已被上游删除的 Global.m3u",
+      "url": "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/GNTV.m3u",
       "mirrors": [
-        "https://cdn.jsdelivr.net/gh/YueChan/Live@main/Global.m3u"
+        "https://cdn.jsdelivr.net/gh/YueChan/Live@main/GNTV.m3u"
       ],
       "format": "m3u",
       "upstream": "https://github.com/YueChan/Live",
-      "status": "dead",
+      "status": "ok",
+      "last_checked": "2026-10-16"
+    },
+    {
+      "name": "ngo5 IPTV(IPv4)",
+      "desc": "ngo5/IPTV 仓库的 IPv4 直播源合集（通用，建议优先）",
+      "url": "https://raw.githubusercontent.com/ngo5/IPTV/main/m3u/ipv4.m3u",
+      "mirrors": [
+        "https://cdn.jsdelivr.net/gh/ngo5/IPTV@main/m3u/ipv4.m3u"
+      ],
+      "format": "m3u",
+      "upstream": "https://github.com/ngo5/IPTV",
+      "status": "ok",
       "last_checked": "2026-10-16"
     }
   ]
