@@ -14,9 +14,13 @@
 - 主地址：`https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/IPTV.m3u` → **ok**
 - 镜像：`https://cdn.jsdelivr.net/gh/YueChan/Live@main/IPTV.m3u` → ok
 
-## YueChan Live(Global)
-- 主地址：`https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/Global.m3u` → **dead**
-- 镜像：`https://cdn.jsdelivr.net/gh/YueChan/Live@main/Global.m3u` → dead
+## YueChan Live(GNTV)
+- 主地址：`https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/GNTV.m3u` → **ok**
+- 镜像：`https://cdn.jsdelivr.net/gh/YueChan/Live@main/GNTV.m3u` → ok
+
+## ngo5 IPTV(IPv4)
+- 主地址：`https://raw.githubusercontent.com/ngo5/IPTV/main/m3u/ipv4.m3u` → **ok**
+- 镜像：`https://cdn.jsdelivr.net/gh/ngo5/IPTV@main/m3u/ipv4.m3u` → ok
 
 ## 饭太硬(fty)
 - 主地址：`https://raw.githubusercontent.com/qist/tvbox/master/fty.json` → **ok**
