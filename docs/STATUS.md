@@ -51,7 +51,7 @@
 
 ## 歧人知道(fan)
 - 主地址：`https://raw.githubusercontent.com/qirenzhidao/tvbox18/main/fan.json` → **ok**
-- 镜像：`https://cdn.jsdelivr.net/gh/qirenzhidao/tvbox18@main/fan.json` → dead
+- 镜像：`https://cdn.jsdelivr.net/gh/qirenzhidao/tvbox18@main/fan.json` → ok
 
 ## 歧人知道(fongmi)
 - 主地址：`https://raw.githubusercontent.com/qirenzhidao/tvbox18/main/fongmi.json` → **ok**
