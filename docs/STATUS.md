@@ -10,10 +10,6 @@
 - 主地址：`https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.txt` → **ok**
 - 镜像：`https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.txt` → ok
 
-## YueChan Live(IPTV)
-- 主地址：`https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/IPTV.m3u` → **ok**
-- 镜像：`https://cdn.jsdelivr.net/gh/YueChan/Live@main/IPTV.m3u` → ok
-
 ## YueChan Live(GNTV)
 - 主地址：`https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/GNTV.m3u` → **ok**
 - 镜像：`https://cdn.jsdelivr.net/gh/YueChan/Live@main/GNTV.m3u` → ok
@@ -87,7 +83,7 @@
 
 ## 肥猫(frjbox)
 - 主地址：`https://raw.githubusercontent.com/kunkka1986/my.img/main/frjbox.json` → **ok**
-- 镜像：`https://cdn.jsdelivr.net/gh/kunkka1986/my.img@main/frjbox.json` → ok
+- 镜像：`https://cdn.jsdelivr.net/gh/kunkka1986/my.img@main/frjbox.json` → dead
 
 ## hackyjso(jzy)
 - 主地址：`https://raw.githubusercontent.com/hackyjso/box/main/jzy.txt` → **ok**
