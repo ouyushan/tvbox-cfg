@@ -13,12 +13,6 @@
       "playerType": 1
     },
     {
-      "name": "YueChan Live(IPTV)",
-      "type": 0,
-      "url": "https://cdn.jsdelivr.net/gh/YueChan/Live@main/IPTV.m3u",
-      "playerType": 1
-    },
-    {
       "name": "YueChan Live(GNTV)",
       "type": 0,
       "url": "https://cdn.jsdelivr.net/gh/YueChan/Live@main/GNTV.m3u",

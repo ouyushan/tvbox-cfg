@@ -1,10 +1,10 @@
 {
-  "_comment": "IPTV 直播源清单（m3u / txt）。status 说明同 vod.json。采集于 2026-10-16，已逐一核对上游仓库实际存在的文件。",
-  "updated": "2026-10-16",
+  "_comment": "IPTV 直播源清单（m3u / txt）。status 说明同 vod.json。采集于 2026-10-19，已逐一核对上游仓库实际存在的文件，并实测播放协议与可达性。",
+  "updated": "2026-10-19",
   "sources": [
     {
       "name": "iptv-api 聚合(Guovin)",
-      "desc": "Guovin/iptv-api 自动采集校验后的结果，频道最全，定时更新",
+      "desc": "Guovin/iptv-api 自动采集校验后的结果，频道最全（约 230 个分组、1600+ 频道），定时更新",
       "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
       "mirrors": [
         "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u"
@@ -12,11 +12,12 @@
       "format": "m3u",
       "upstream": "https://github.com/Guovin/iptv-api",
       "status": "ok",
-      "last_checked": "2026-10-16"
+      "last_checked": "2026-10-19",
+      "note": "内容以各省级频道为主，中外混合。注意：列表第一个分组「🕘️更新时间」是上游的伪频道（只有一条时间戳、无法播放），需在直播页切换分组才能看到央视频道/卫视频道/各省频道。部分流为海外 IP，不同网络下存活率有差异。"
     },
     {
       "name": "iptv-api 聚合(TXT)",
-      "desc": "同上仓库的 txt 版本，适合 TVBox 直接填",
+      "desc": "同上仓库的 txt 版本，分组平铺，适合 TVBox 直接填",
       "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.txt",
       "mirrors": [
         "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.txt"
@@ -24,19 +25,8 @@
       "format": "txt",
       "upstream": "https://github.com/Guovin/iptv-api",
       "status": "ok",
-      "last_checked": "2026-10-16"
-    },
-    {
-      "name": "YueChan Live(IPTV)",
-      "desc": "YueChan/Live 仓库的中国 IPTV 频道列表",
-      "url": "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/IPTV.m3u",
-      "mirrors": [
-        "https://cdn.jsdelivr.net/gh/YueChan/Live@main/IPTV.m3u"
-      ],
-      "format": "m3u",
-      "upstream": "https://github.com/YueChan/Live",
-      "status": "ok",
-      "last_checked": "2026-10-16"
+      "last_checked": "2026-10-19",
+      "note": "与 m3u 同源，txt 格式无分组元数据，按 #genre# 分块平铺展示。"
     },
     {
       "name": "YueChan Live(GNTV)",
@@ -48,11 +38,12 @@
       "format": "m3u",
       "upstream": "https://github.com/YueChan/Live",
       "status": "ok",
-      "last_checked": "2026-10-16"
+      "last_checked": "2026-10-19",
+      "note": "台湾频道为主，走 CloudFront，实测对非台湾地区返回 403（地域封锁）。仅台湾网络或海外落地可用，大陆网络下基本无法播放。"
     },
     {
       "name": "ngo5 IPTV(IPv4)",
-      "desc": "ngo5/IPTV 仓库的 IPv4 直播源合集（通用，建议优先）",
+      "desc": "ngo5/IPTV 仓库的 IPv4 直播源合集",
       "url": "https://raw.githubusercontent.com/ngo5/IPTV/main/m3u/ipv4.m3u",
       "mirrors": [
         "https://cdn.jsdelivr.net/gh/ngo5/IPTV@main/m3u/ipv4.m3u"
@@ -60,7 +51,16 @@
       "format": "m3u",
       "upstream": "https://github.com/ngo5/IPTV",
       "status": "ok",
-      "last_checked": "2026-10-16"
+      "last_checked": "2026-10-19",
+      "note": "流地址全部指向 ottrrs.hl.chinamobile.com（中国移动 PLTV 内网），仅中国移动宽带/移动网络下可播放，其他运营商网络下不可用。"
+    }
+  ],
+  "removed": [
+    {
+      "name": "YueChan Live(IPTV)",
+      "url": "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/IPTV.m3u",
+      "removed_on": "2026-10-19",
+      "reason": "实测该列表 96/96 个频道全部为 rtp://239.3.1.x 组播地址（北京联通 IPTV 内网组播）。TVBox/FongMi/影视仓等 App 播放器不支持 rtp 组播，仅在支持 IGMP 的路由器/内网环境下可用，对 App 用户等同于失效，故从直播配置中移除。"
     }
   ]
 }
