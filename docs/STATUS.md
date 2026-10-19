@@ -83,7 +83,7 @@
 
 ## 肥猫(frjbox)
 - 主地址：`https://raw.githubusercontent.com/kunkka1986/my.img/main/frjbox.json` → **ok**
-- 镜像：`https://cdn.jsdelivr.net/gh/kunkka1986/my.img@main/frjbox.json` → dead
+- 镜像：`https://cdn.jsdelivr.net/gh/kunkka1986/my.img@main/frjbox.json` → ok
 
 ## hackyjso(jzy)
 - 主地址：`https://raw.githubusercontent.com/hackyjso/box/main/jzy.txt` → **ok**
