@@ -25,7 +25,7 @@
 
 ## 饭太硬(极速)
 - 主地址：`https://raw.githubusercontent.com/qist/tvbox/master/jsm.json` → **ok**
-- 镜像：`https://cdn.jsdelivr.net/gh/qist/tvbox@master/jsm.json` → ok
+- 镜像：`https://cdn.jsdelivr.net/gh/qist/tvbox@master/jsm.json` → dead
 
 ## 潇洒
 - 主地址：`https://raw.githubusercontent.com/qist/tvbox/master/xiaosa/api.json` → **ok**
@@ -71,7 +71,7 @@
 
 ## 猫影视(000)
 - 主地址：`https://raw.githubusercontent.com/maoystv/6/main/000.json` → **ok**
-- 镜像：`https://cdn.jsdelivr.net/gh/maoystv/6@main/000.json` → ok
+- 镜像：`https://cdn.jsdelivr.net/gh/maoystv/6@main/000.json` → dead
 
 ## Txtv(0326)
 - 主地址：`https://raw.githubusercontent.com/txtvv/txtv/main/tvbox/0326.json` → **ok**
