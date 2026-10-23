@@ -25,7 +25,7 @@
 
 ## 饭太硬(极速)
 - 主地址：`https://raw.githubusercontent.com/qist/tvbox/master/jsm.json` → **ok**
-- 镜像：`https://cdn.jsdelivr.net/gh/qist/tvbox@master/jsm.json` → ok
+- 镜像：`https://cdn.jsdelivr.net/gh/qist/tvbox@master/jsm.json` → dead
 
 ## 潇洒
 - 主地址：`https://raw.githubusercontent.com/qist/tvbox/master/xiaosa/api.json` → **ok**
@@ -43,7 +43,7 @@
 
 ## 歧人知道(tvbox)
 - 主地址：`https://raw.githubusercontent.com/qirenzhidao/tvbox18/main/tvbox.json` → **ok**
-- 镜像：`https://cdn.jsdelivr.net/gh/qirenzhidao/tvbox18@main/tvbox.json` → ok
+- 镜像：`https://cdn.jsdelivr.net/gh/qirenzhidao/tvbox18@main/tvbox.json` → dead
 
 ## 歧人知道(fan)
 - 主地址：`https://raw.githubusercontent.com/qirenzhidao/tvbox18/main/fan.json` → **ok**
