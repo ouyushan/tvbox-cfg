@@ -71,7 +71,7 @@
 
 ## 猫影视(000)
 - 主地址：`https://raw.githubusercontent.com/maoystv/6/main/000.json` → **ok**
-- 镜像：`https://cdn.jsdelivr.net/gh/maoystv/6@main/000.json` → dead
+- 镜像：`https://cdn.jsdelivr.net/gh/maoystv/6@main/000.json` → ok
 
 ## Txtv(0326)
 - 主地址：`https://raw.githubusercontent.com/txtvv/txtv/main/tvbox/0326.json` → **ok**
