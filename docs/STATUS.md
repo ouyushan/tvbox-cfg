@@ -1,6 +1,6 @@
 # 配置源健康状态
 
-生成时间：2026-10-30
+生成时间：2026-10-31
 
 ## iptv-api 聚合(Guovin)
 - 主地址：`https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u` → **ok**
@@ -63,7 +63,7 @@
 
 ## 月光宝盒(max)
 - 主地址：`https://raw.githubusercontent.com/guot55/yg/main/max.json` → **ok**
-- 镜像：`https://cdn.jsdelivr.net/gh/guot55/yg@main/max.json` → dead
+- 镜像：`https://cdn.jsdelivr.net/gh/guot55/yg@main/max.json` → ok
 
 ## DXAW(0)
 - 主地址：`https://raw.githubusercontent.com/dxawi/0/main/0.json` → **ok**

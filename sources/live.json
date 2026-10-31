@@ -12,7 +12,7 @@
       "format": "m3u",
       "upstream": "https://github.com/Guovin/iptv-api",
       "status": "ok",
-      "last_checked": "2026-10-30",
+      "last_checked": "2026-10-31",
       "note": "内容以各省级频道为主，中外混合。注意：列表第一个分组「🕘️更新时间」是上游的伪频道（只有一条时间戳、无法播放），需在直播页切换分组才能看到央视频道/卫视频道/各省频道。部分流为海外 IP，不同网络下存活率有差异。"
     },
     {
@@ -25,7 +25,7 @@
       "format": "txt",
       "upstream": "https://github.com/Guovin/iptv-api",
       "status": "ok",
-      "last_checked": "2026-10-30",
+      "last_checked": "2026-10-31",
       "note": "与 m3u 同源，txt 格式无分组元数据，按 #genre# 分块平铺展示。"
     },
     {
@@ -38,7 +38,7 @@
       "format": "m3u",
       "upstream": "https://github.com/YueChan/Live",
       "status": "ok",
-      "last_checked": "2026-10-30",
+      "last_checked": "2026-10-31",
       "note": "台湾频道为主，走 CloudFront，实测对非台湾地区返回 403（地域封锁）。仅台湾网络或海外落地可用，大陆网络下基本无法播放。"
     },
     {
@@ -51,7 +51,7 @@
       "format": "m3u",
       "upstream": "https://github.com/ngo5/IPTV",
       "status": "ok",
-      "last_checked": "2026-10-30",
+      "last_checked": "2026-10-31",
       "note": "流地址全部指向 ottrrs.hl.chinamobile.com（中国移动 PLTV 内网），仅中国移动宽带/移动网络下可播放，其他运营商网络下不可用。"
     }
   ],
