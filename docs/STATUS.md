@@ -20,7 +20,7 @@
 
 ## 饭太硬(fty)
 - 主地址：`https://raw.githubusercontent.com/qist/tvbox/master/fty.json` → **ok**
-- 镜像：`https://cdn.jsdelivr.net/gh/qist/tvbox@master/fty.json` → ok
+- 镜像：`https://cdn.jsdelivr.net/gh/qist/tvbox@master/fty.json` → dead
 - 镜像：`https://fastly.jsdelivr.net/gh/qist/tvbox@master/fty.json` → ok
 
 ## 饭太硬(极速)
