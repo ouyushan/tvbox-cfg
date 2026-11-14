@@ -20,7 +20,7 @@
 
 ## 饭太硬(fty)
 - 主地址：`https://raw.githubusercontent.com/qist/tvbox/master/fty.json` → **ok**
-- 镜像：`https://cdn.jsdelivr.net/gh/qist/tvbox@master/fty.json` → dead
+- 镜像：`https://cdn.jsdelivr.net/gh/qist/tvbox@master/fty.json` → ok
 - 镜像：`https://fastly.jsdelivr.net/gh/qist/tvbox@master/fty.json` → ok
 
 ## 饭太硬(极速)
@@ -43,7 +43,7 @@
 
 ## 歧人知道(tvbox)
 - 主地址：`https://raw.githubusercontent.com/qirenzhidao/tvbox18/main/tvbox.json` → **ok**
-- 镜像：`https://cdn.jsdelivr.net/gh/qirenzhidao/tvbox18@main/tvbox.json` → ok
+- 镜像：`https://cdn.jsdelivr.net/gh/qirenzhidao/tvbox18@main/tvbox.json` → dead
 
 ## 歧人知道(fan)
 - 主地址：`https://raw.githubusercontent.com/qirenzhidao/tvbox18/main/fan.json` → **ok**
